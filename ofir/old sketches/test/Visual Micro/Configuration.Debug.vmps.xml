@@ -1,0 +1,6 @@
+<VisualMicro>
+  <Program Name="test" Ext=".ino" Location="C:\Program Files (x86)\Arduino\ofir\test">
+    <Debug AutoReportAnalogPins="1" AutoReportFreeMemory="1" AutoReportDigitalPins="1" />
+    <Compile />
+  </Program>
+</VisualMicro>

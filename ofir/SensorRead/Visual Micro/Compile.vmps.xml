@@ -1,0 +1,37 @@
+<VisualMicro>
+  <Program Name="SensorRead" Ext=".ino" Location="C:\Program Files (x86)\Arduino\ofir\SensorRead">
+    <Debug DebugMode="Full" DebugEnabled="1" StartUpMessage="&quot;starting&quot;" EnableBreak="1" AutoReportAnalogPins="0" AutoReportDigitalPins="0" AutoReportFreeMemory="0" />
+    <Compile IsDebugStart="1" CompilerErrors="0" ConfigurationName="Debug" StopOnError="False" OptimiseLibs="True" OptimiseCore="True" BuildPath="C:\Users\ofir.SIXEYE-INT\AppData\Local\VMicro\Arduino\Builds\SensorRead\uno" SketchName="SensorRead" ReportDigitalPins="0" ReportAnalogPins="0" ReportI2C="0" ReportFreeMemory="0" IncludeDebug="1" LastDebugPreProcessorDefinitions="VM_DEBUG;VM_DEBUG_ENABLE 1;VM_DEBUG_BANDWIDTH_THROTTLE_MS 50;VM_DEBUGGER_TYPE_HARDWARESERIAL 0;VM_DEBUGGER_TYPE_SOFTWARESERIAL 1;VM_DEBUGGER_TYPE_FASTSERIAL 2;VM_DEBUGGER_TYPE_USB 3;VM_DEBUGGER_TYPE_TEENSY 4;VM_DEBUGGER_TYPE_UART 5;VM_DEBUGGER_TYPE_USART 6;VM_DEBUGGER_TYPE_USBSERIAL 7;VM_DEBUGGER_TYPE_TTYUART 8;VM_DEBUGGER_TYPE_NET_CONSOLE 9;VM_DEBUGGER_TYPE VM_DEBUGGER_TYPE_HARDWARESERIAL;VM_DEBUG_BREAKPAUSE;" IncludesDebug="1" IsCompiled="1" />
+    <Platform Name="arduino10x" Package="arduino" Platform="avr" Architecture="avr">
+      <Board Name="uno" Description="Arduino Uno" CoreFolder="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" VariantFullPath="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" McuIdePath="C:\Program Files (x86)\Arduino" McuSketchBookPath="C:\Program Files (x86)\Arduino\ofir" name="Arduino Uno" upload.protocol="arduino" upload.maximum_size="32256" upload.speed="115200" bootloader.low_fuses="0xff" bootloader.high_fuses="0xde" bootloader.extended_fuses="0x05" bootloader.path="optiboot" bootloader.file="optiboot_atmega328.hex" bootloader.unlock_bits="0x3F" bootloader.lock_bits="0x0F" build.mcu="atmega328p" build.f_cpu="16000000L" build.core="arduino" build.variant="standard" runtime.ide.path="C:\Program Files (x86)\Arduino" build.system.path="C:\Program Files (x86)\Arduino\hardware\arduino\system" runtime.ide.version="105" originalid="uno" vm.platform.root.path="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\arduino10x" ide.hint="Arduino 0023 and 1.0.x Ide" ide.location.key="Arduino" ide.location.ide.winreg="Arduino 1.0.x Application" ide.location.sketchbook.winreg="Arduino 1.0.x Sketchbook" ide.location.sketchbook.preferences="sketchbook.path" ide.location.sketchbook.default="%MYDOCUMENTS%\arduino" ide.location.preferences="%VM_APPDATA_ROAMING%\arduino\preferences.txt" ide.default.package="arduino" ide.default.platform="avr" ide.multiplatform="true" ide.includes="arduino.h" ide.platformswithoutpackage="true" ide.includes.fallback="wprogram.h" ide.extension="ino" ide.extension.fallback="pde" ide.versionLTEQ="149" ide.exe="arduino.exe" ide.hosts="atmel" ide.url="http://arduino.cc/en/Main/Software" vm.debug="true" software="ARDUINO" ide.appid="arduino10x" location.sketchbook="C:\Program Files (x86)\Arduino\ofir" build.core.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino" build.core.parentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\cores" build.core.coresparentfolder.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino" vm.core.include="arduino.h" build.board="AVR_UNO" vm.boardsource.path="C:\Program Files (x86)\Arduino\hardware\arduino" runtime.platform.path="C:\Program Files (x86)\Arduino\hardware\arduino" vm.platformname.name="avr" build.arch="AVR" build.variant.vmresolved="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" vm.runtime.compiler.showwarnings="false" serial.port.file="COM1" serial.port="COM1" compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" includes=" -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino&quot;  -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG&quot;  -I&quot;C:\Program Files (x86)\Arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Arduino\hardware\arduino\libraries&quot;  -I&quot;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers&quot;  -I&quot;C:\Program Files (x86)\Arduino\ofir\libraries&quot; " build.path="C:\Users\ofir.SIXEYE-INT\AppData\Local\VMicro\Arduino\Builds\SensorRead\uno" build.project_name="SensorRead" build.variant.path="C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard" archive_file="core.a" object_file="C:\Users\ofir.SIXEYE-INT\AppData\Local\VMicro\Arduino\Builds\SensorRead\uno\VM_DBG\VM_DBG.cpp.o" source_file="C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers\VM_DBG\VM_DBG.cpp" object_files="&quot;C:\Users\ofir.SIXEYE-INT\AppData\Local\VMicro\Arduino\Builds\SensorRead\uno\SensorRead.cpp.o&quot; " build.architecture="avr" vmresolved.compiler.path="C:\Program Files (x86)\Arduino\hardware\tools\avr\bin\" vmresolved.tools.path="C:\Program Files (x86)\Arduino\hardware\tools\avr" />
+    </Platform>
+    <VCCodeModel>
+      <VCCodeMacros />
+    </VCCodeModel>
+    <BreakPoints>
+      <BreakPoint Index="1" Name="SensorRead.ino, line 20 character 1" Id="9e74b764-a80a-4ee5-939a-84bb1f222369" Enabled="1" Message="{sensor_val}" MessageTextType="2" PreProcessedMessage="{0}" Condition="" ConditionType="1" CurrentHits="0" File="c:\program files (x86)\arduino\ofir\sensorread\sensorread.ino" FileLine="20" FileColumn="1" FunctionName="" FunctionLineOffset="1" FunctionColumnOffset="1" HitCountTarget="1" HitCountType="1" Language="AVR GCC" LocationType="3" Tag="&lt;vmbp Id='9e74b764-a80a-4ee5-939a-84bb1f222369'/&gt;" Type="1" ToString="System.__ComObject" BreakWhenHit="0">
+        <Source>13	//int i=0;
+14	//int x=0;
+15	void loop()
+16	{
+17		//sensor_value[i % array_length]=analogRead(sensor_pin);
+18		sensor_val=analogRead(sensor_pin);
+19		Serial.println(sensor_val);
+--&gt;20		delay(1000);
+21		//i++;
+22		//delay(1000);
+23		//x = analogRead(sensor_pin);
+24		//i++;
+25		//for (i=0;i&lt;array_length;i++)
+26		//{
+27			//sensor_value[i]=i;//analogRead(sensor_pin);
+28			////Serial.println(sensor_value[i]);
+29			//Serial.println(i);
+</Source>
+        <MessageVariables>
+          <MessageVariable Name="sensor_val" Index="1" />
+        </MessageVariables>
+      </BreakPoint>
+    </BreakPoints>
+  </Program>
+</VisualMicro>
